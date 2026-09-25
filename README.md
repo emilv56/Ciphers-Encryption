@@ -1,1 +1,3 @@
 # Ciphers-Encryption
+
+This was a university coursework project in which I implemented four cipher classes (Caesar, Affine, Substitution, and an Affine Hill Cipher). These all inherit a base cipher class, which handles encryption given encode and decode maps which differ between each cipher. I built five operators (composition, addition, scalar multiplication, inverse, and exponentiation) which can be used to combine multiple ciphers into a more complex cipher, provided certain conditions are met between the input ciphers. Our task was to encode and decode the same messages for each cipher as well as more complicated ciphers built through the different operators.
